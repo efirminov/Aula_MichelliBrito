@@ -1,0 +1,7 @@
+package com.efirminov.springboot.dtos;
+
+import java.math.BigDecimal;
+
+public record ProductRecordDto(String nome, BigDecimal value) {
+
+}

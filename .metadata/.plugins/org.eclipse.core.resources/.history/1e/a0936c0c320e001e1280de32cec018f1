@@ -1,0 +1,5 @@
+package com.efirminov.springboot.dtos;
+
+public record ProductRecordDto() {
+
+}

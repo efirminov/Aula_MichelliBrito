@@ -1,0 +1,5 @@
+package com.efirminov.springboot.models;
+
+public class ProductModel {
+
+}

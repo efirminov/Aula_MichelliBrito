@@ -1,0 +1,9 @@
+package com.efirminov.springboot.dtos;
+
+import java.math.BigDecimal;
+
+import jakarta.validation.constraints.NotBlank;
+
+public record ProductRecordDto(@NotBlank String nome, BigDecimal value) {
+
+}

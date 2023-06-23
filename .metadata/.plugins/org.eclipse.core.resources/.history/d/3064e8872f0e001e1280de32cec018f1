@@ -1,0 +1,11 @@
+# Defina aqui as configurações para a conexão com o banco de dados
+spring.datasource.url=jdbc:postgresql://localhost:5432/products-api
+spring.datasource.username=postgres
+spring.datasource.password=ssummerr123
+
+# Hibernate ddl auto (create, create-drop, update): com "create-drop" o banco de dados
+# esquema será criado automaticamente de novo para cada inicialização do aplicativo
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
